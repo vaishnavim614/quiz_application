@@ -514,7 +514,7 @@ class _QuestionState extends State<Question> {
 
   void initializeQuizStream() async {
     quizStream = await DatabaseMethods().getCategoryQuiz(widget.category);
-    setState(() {}); // Trigger a rebuild once the stream is initialized
+    setState(() {});
   }
 
   @override

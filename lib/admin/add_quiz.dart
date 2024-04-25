@@ -80,6 +80,7 @@ final List<String>  quizitems=['Integration','Probability','Derivatives','Statis
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title: Text("Add quiz",style:
           TextStyle(
@@ -88,7 +89,22 @@ final List<String>  quizitems=['Integration','Probability','Derivatives','Statis
               fontWeight: FontWeight.bold
           ),
         ),
+        centerTitle: true,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            // Navigate back to the previous screen or a specific screen
+            //Navigator.pop(context); // This will pop the current route off the navigator
+            // If you want to navigate to a specific route/screen, you can use:
+            print("Back arrow pressed");
+            Navigator.pushReplacementNamed(context, '/AdminLogin');
+            // Replace '/routeName' with the name of the route/screen you want to navigate to.
+          },
+
+        ),
       ),
+
+
       body: SingleChildScrollView(
         child: Container(
           margin: EdgeInsets.only(left: 20.0,right: 20.0,top: 20.0,bottom: 40.0),

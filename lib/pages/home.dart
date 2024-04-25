@@ -51,7 +51,7 @@ class _HomeState extends State<Home> {
                     SizedBox(width: 20.0,),
                     Padding(
                       padding: const EdgeInsets.only(top:10.0),
-                      child: Text("data",
+                      child: Text("Ritu Sharma",
                           style:
                           TextStyle(
                               color: Colors.white,
@@ -198,7 +198,7 @@ class _HomeState extends State<Home> {
                       decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(20)),
                       child: Column(
                         children: [
-                          Image.asset("images/integration.png",height: 100,width: 100,fit: BoxFit.cover,),
+                          Image.asset("images/derivative.jpg",height: 100,width: 100,fit: BoxFit.cover,),
                           SizedBox(height: 20,),
                           Text("Derivatives",
                               style:
@@ -230,7 +230,7 @@ class _HomeState extends State<Home> {
                       decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(20)),
                       child: Column(
                         children: [
-                          Image.asset("images/probability.jpg",height: 100,width: 100,fit: BoxFit.cover,),
+                          Image.asset("images/statistics.jpg",height: 100,width: 100,fit: BoxFit.cover,),
                           SizedBox(height: 20,),
                           Text("Statistics",
                               style:
@@ -271,7 +271,7 @@ class _HomeState extends State<Home> {
                       decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(20)),
                       child: Column(
                         children: [
-                          Image.asset("images/integration.png",height: 100,width: 100,fit: BoxFit.cover,),
+                          Image.asset("images/matrix.png",height: 100,width: 100,fit: BoxFit.cover,),
                           SizedBox(height: 20,),
                           Text("Matrix",
                               style:
@@ -303,7 +303,7 @@ class _HomeState extends State<Home> {
                       decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(20)),
                       child: Column(
                         children: [
-                          Image.asset("images/probability.jpg",height: 100,width: 100,fit: BoxFit.cover,),
+                          Image.asset("images/geometry.webp",height: 100,width: 100,fit: BoxFit.cover,),
                           SizedBox(height: 20,),
                           Text("Geometry",
                               style:
